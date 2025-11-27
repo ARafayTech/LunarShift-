@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LunarShift - Products</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">LunarShift</div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="cart.html">Cart</a></li>
+    </ul>
+</nav>
+
+<section class="products">
+    <h2>Our Collection</h2>
+
+    <div class="product-grid">
+
+        <div class="product-card">
+            <img src="images/shirt1.jpg" alt="T-shirt">
+            <h3>Classic Black Tee</h3>
+            <p>PKR 1500</p>
+            <button onclick="addToCart('Classic Black Tee',1500)">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/shirt2.jpg" alt="T-shirt">
+            <h3>Oversized White Tee</h3>
+            <p>PKR 1600</p>
+            <button onclick="addToCart('Oversized White Tee',1600)">Add to Cart</button>
+        </div>
+
+    </div>
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
